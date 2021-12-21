@@ -270,10 +270,10 @@ async def about_handler(c:Client,m:Message):
 		reply_markup=InlineKeyboardMarkup(
 			[
 				[
-					InlineKeyboardButton("Developer", url="https://t.me/yashoswalyo")
+					InlineKeyboardButton("Developer", url="https://t.me/dihanrandila")
 				],
 				[
-					InlineKeyboardButton("Source Code", url="https://github.com/yashoswalyo/MERGE-BOT"),
+					InlineKeyboardButton("Source Code", url="https://github.com/dihanrandila/MERGE-BOT"),
 					InlineKeyboardButton("Deployed By", url=f"https://t.me/{Config.OWNER_USERNAME}")
 				]
 			]
@@ -315,7 +315,7 @@ async def callback(c: Client, cb: CallbackQuery):
 				[
 					[
 						InlineKeyboardButton('📤 To Telegram', callback_data = 'to_telegram'),
-						InlineKeyboardButton('🌫️ To Drive', callback_data = 'to_drive')
+						InlineKeyboardButton('🔗 To Drive', callback_data = 'to_drive')
 					]
 				]
 			)
@@ -329,8 +329,8 @@ async def callback(c: Client, cb: CallbackQuery):
 			reply_markup=InlineKeyboardMarkup(
 				[
 					[
-						InlineKeyboardButton('🎞️ Video', callback_data='videoS'),
-						InlineKeyboardButton('📁 File', callback_data='documentS')
+						InlineKeyboardButton('🎞️ Video Format', callback_data='videoS'),
+						InlineKeyboardButton('📁 File Format', callback_data='documentS')
 					]
 				]
 			)
